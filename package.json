@@ -4,6 +4,7 @@
   "description": "A responsive and accessible date range picker component built with React",
   "main": "index.js",
   "scripts": {
+    "prepare": "npm run build",
     "prebuild": "npm run clean",
     "build": "npm run build:cjs && npm run build:esm && npm run build:css -- --optimize",
     "postbuild": "npm run build:test",
@@ -134,8 +135,8 @@
   "peerDependencies": {
     "@babel/runtime": "^7.0.0",
     "moment": "^2.18.1",
-    "react": "^0.14 || ^15.5.4 || ^16.1.1",
-    "react-dom": "^0.14 || ^15.5.4 || ^16.1.1"
+    "react": "^0.14 || ^15.5.4 || ^16.1.1 || ^17.0.2",
+    "react-dom": "^0.14 || ^15.5.4 || ^16.1.1 || ^17.0.2"
   },
   "engines": {
     "node": ">=0.10"
